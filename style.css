@@ -1,0 +1,265 @@
+/* -IMPORTANT */
+/*-ID*/
+/* -CLASS */
+/* -SLECTOR/ETIQUETA */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: white;
+    max-width: 1920px;
+}
+
+#main_2{
+    width: 10%0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    display: inline-block;
+    padding-left: 100px;
+}
+
+#main{
+    background-color: rgb(252, 252, 252);
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+
+}
+
+
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.imagen_portada {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.texto_portada{
+    text-align: center;
+}
+    
+
+#header{
+    max-width: 1920px;
+    height: 70px;
+}
+
+
+#navBar{
+    width: 100%;
+    height: 100%;
+    padding: 0 50px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navBar_ul_li{
+    list-style: none;
+    display: inline-flex;
+
+    
+}
+
+.navBar_ul2{
+    display: inline-flex;
+    list-style: none;
+}
+
+
+.img_logo{
+    width: 60px;
+}
+
+.img_logo2{
+    width: 60px;
+}
+
+.img_logo3{
+    width: 60px;
+}
+
+.img_logo4{
+    width: 60px;
+}
+
+.img_logo5{
+    width: 60px;
+}
+
+
+.aportes-img{
+    padding-top: 100px;
+    margin-left: 150px;
+
+}
+
+#footer{
+   display: flex;
+   justify-content: space-around;
+   background-color: rgb(137, 137, 137);
+   align-items: center;
+   padding: 5px 0;
+   margin-top: 100px;
+}
+
+#footer_2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(125, 127, 127);
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 100vh;
+}
+
+#footer_3{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(125, 127, 127);
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+#footer_4{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(125, 127, 127);
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 100px;
+}
+
+
+#footer_5 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(125, 127, 127);
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 20vh;
+}
+
+
+.footer_logo img {
+    width: 90px;
+}
+
+
+.footer_logo5 img{
+    width: 90px;
+}
+
+.footer_links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+.footer_facebook , .footer_instagram , .footer_youtube {
+    font-size: 25px
+}
+
+#imagenes{
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 800px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1r);
+    grid-template-areas: 
+
+    "guitarra             piano"
+
+    "violin                bajo"
+    ;
+
+column-gap: 200px;
+row-gap: 200px;   
+}
+
+
+#imagenes img{
+    width: 100%;
+    height: 100%;
+}
+
+.img1{
+    grid-area: "guitarra";
+}
+
+.img2{
+    grid-area: "piano";
+}
+
+.img3{
+    grid-area: "violin";
+}
+
+.img4{
+    grid-area: "bajo";
+}
+
+ .rating {
+ direction: rtl;
+ unicode-bidi: bidi-override;
+ font-size: 2rem;
+display: inline-flex;
+}
+
+        .rating {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            font-size: 2rem;
+            display: inline-flex;
+        }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label {
+            color: #ddd;
+            cursor: pointer;
+            padding: 0 0.1rem;
+        }
+
+        .rating input:checked ~ label,
+        .rating label:hover,
+        .rating label:hover ~ label {
+            color: gold;
+        }
+
+
+.texto_13{
+    padding-left: 550px;
+    padding-bottom: 100px;
+    
+}
+
+.form_mapa{
+    padding-left: 400px;
+    padding-top: 100px;
+}
